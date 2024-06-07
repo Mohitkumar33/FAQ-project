@@ -1,17 +1,92 @@
 .App {
-    font-family: "Arial", sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 40px;
-    background-color: #f4f4f4;
-  }
-  
-  h1 {
-    color: #003366;
-  }
-  
-  .logo {
-    width: 200px;
-    margin-bottom: 20px;
-  }
+  font-family: "Arial", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  color: #003366;
+}
+
+.logo {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+button {
+  background-color: #003366;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #002244;
+}
+
+/* Enhancements */
+
+/* Card styling */
+.ant-card {
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+/* Alert styling */
+.ant-alert-warning {
+  padding: 15px 20px;
+  font-size: 16px;
+}
+
+/* Consistent spacing */
+.ant-space {
+  justify-content: center;
+}
+/* Enhanced Answer Text Styling */
+.ant-card p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  font-weight: 400;
+}
+
+.user-message {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #007bff;
+  color: #fff;
+  text-align: right;
+  /* float: right; */
+  display: block;
+  /* overflow-y: auto; */
+  max-width: 60%;
+  align-self: flex-end;
+}
+
+.bot-message {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  /* overflow-y: auto; */
+  background-color: #28a745;
+  color: #fff;
+  max-width: 60%;
+  text-align: left;
+  align-self: flex-start;
+}
